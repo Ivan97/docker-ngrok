@@ -5,7 +5,7 @@ server:
     - "4432:443"
     - "4443:4443"
   volumes:
-    - /data/ngrok:/myfiles
+    - /root/docker/volume/ngrok:/myfiles
   environment:
     - DOMAIN="tunnel.ioooo.tech"
   command: /bin/sh /server.sh
