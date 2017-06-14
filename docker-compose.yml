@@ -1,5 +1,5 @@
 server:
-  image: ivan97/ngrok
+  image: hteen/ngrok
   ports:
     - "80:80"
     - "443:443"
