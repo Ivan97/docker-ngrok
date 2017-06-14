@@ -1,11 +1,11 @@
 server:
   image: ivan97/ngrok
   ports:
-    - "8082:80"
-    - "4432:443"
+    - "80:80"
+    - "443:443"
     - "4443:4443"
   volumes:
-    - /root/docker/volume/ngrok:/myfiles
+    - /root/docker/volume/ngromZ:/myfiles
   environment:
     - DOMAIN="tunnel.ioooo.tech"
   command: /bin/sh /server.sh
