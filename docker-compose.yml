@@ -7,5 +7,5 @@ server:
   volumes:
     - /root/docker/volume/ngrok:/myfiles
   environment:
-    - DOMAIN="tunnel.ioooo.tech"
+    - DOMAIN="tunnel.iooo.tech"
   command: /bin/sh /server.sh
