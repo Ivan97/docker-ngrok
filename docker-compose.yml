@@ -1,5 +1,5 @@
 server:
-  image: hteen/ngrok
+  image: ivan97/ngrok
   ports:
     - "8082:80"
     - "4432:443"
@@ -7,5 +7,5 @@ server:
   volumes:
     - /data/ngrok:/myfiles
   environment:
-    - DOMAIN="tunnel.hteen.cn"
+    - DOMAIN="tunnel.ioooo.tech"
   command: /bin/sh /server.sh
